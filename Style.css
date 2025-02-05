@@ -1,0 +1,16 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#colorBox {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+#hexCode {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
