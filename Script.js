@@ -52,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
         greenInput.value = rgb.g;
         blueInput.value = rgb.b;
 
+        const BColor = document.getElementById("BODY");
+        const h = document.getElementById("H1");
         colorBox.style.backgroundColor = hex;
         hexCode.textContent = hex.toUpperCase();
     }
