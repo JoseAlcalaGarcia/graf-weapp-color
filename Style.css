@@ -1,0 +1,46 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.color-picker {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.color-picker:hover {
+    transform: scale(1.1);
+}
+
+.form-control {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.red-slider::-webkit-slider-thumb {
+    background: red;
+}
+
+.green-slider::-webkit-slider-thumb {
+    background: green;
+}
+
+.blue-slider::-webkit-slider-thumb {
+    background: blue;
+}
