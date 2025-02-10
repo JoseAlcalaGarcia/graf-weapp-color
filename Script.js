@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const greenInput = document.getElementById("greenInput");
     const blueInput = document.getElementById("blueInput");
     const colorBox = document.getElementById("colorBox");
-    const BodyColor = document.getElementById("BODY");
+    const BColor = document.getElementById("BODY");
     const h = document.getElementById("H1");
     const hexCode = document.getElementById("hexCode");
 
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         greenInput.value = g;
         blueInput.value = b;
         colorBox.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
-        BodyColor.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+        BColor.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
         h.style.color = `rgb(${r}-${g}, ${g}, ${b})`;
     }
 
